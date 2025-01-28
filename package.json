@@ -5,6 +5,7 @@
   "keywords": [],
   "author": "John Lloyd Patrick Japos",
   "scripts": {
+    "postbuild": "cp -r src/scripts dist/scripts",
     "build": "npx tsc",
     "publish-minor": "npm run build && npm version minor && npm publish",
     "publish-major": "npm run build && npm version major && npm publish"
