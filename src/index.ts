@@ -4,7 +4,7 @@ import path from "path";
 
 class TelegramBot {
     private BOT_TOKEN: string = '';
-    private SCRIPT_DIR: string = path.join(__dirname, 'scripts');
+    private SCRIPT_DIR: string = 'scripts';
 
     constructor(botToken: string) {
         this.BOT_TOKEN = botToken;
