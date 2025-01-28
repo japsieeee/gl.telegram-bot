@@ -2,6 +2,7 @@
   "name": "gl.telegram-bot",
   "version": "1.9.5",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "type": "module",
   "keywords": [],
   "author": "John Lloyd Patrick Japos",
