@@ -1,0 +1,19 @@
+{
+  "name": "gl.telegram-bot",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "keywords": [],
+  "author": "John Lloyd Patrick Japos",
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "license": "ISC",
+  "description": "Telegram bot API for easy access on typescript/javascript",
+  "dependencies": {
+    "@types/node": "22.10.10",
+    "typescript": "5.7.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
