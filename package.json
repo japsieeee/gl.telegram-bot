@@ -1,35 +1,25 @@
 {
-    "name": "gl.telegram-bot",
-    "version": "1.7.0",
-    "type": "module",
-    "main": "./dist/index.cjs",
-    "module": "./dist/index.mjs",
-    "types": "./dist/index.d.ts",
-    "exports": {
-        "import": "./dist/index.js",
-        "require": "./dist/index.cjs",
-        "types": "./dist/index.d.ts"
-    },
-    "keywords": [],
-    "author": "John Lloyd Patrick Japos",
-    "description": "Telegram bot API for easy access on TypeScript/JavaScript",
-    "license": "ISC",
-    "files": [
-      "dist",
-      "scripts"
-    ],
-    "scripts": {
-      "build": "npx tsc",
-      "publish-patch": "npm run build && npm version patch && npm publish",
-      "publish-minor": "npm run build && npm version minor && npm publish",
-      "publish-major": "npm run build && npm version major && npm publish"
-    },
-    "dependencies": {
-      "@types/node": "22.10.10",
-      "typescript": "5.7.3"
-    },
-    "devDependencies": {
-      "ts-node": "^10.9.2"
-    }
-  }
-  
+  "name": "gl.telegram-bot",
+  "version": "1.7.0",
+  "main": "dist/index.js",
+  "keywords": [],
+  "author": "John Lloyd Patrick Japos",
+  "scripts": {
+    "build": "npx tsc",
+    "publish-minor": "npm run build && npm version minor && npm publish",
+    "publish-major": "npm run build && npm version major && npm publish"
+  },
+  "license": "ISC",
+  "description": "Telegram bot API for easy access on typescript/javascript",
+  "dependencies": {
+    "@types/node": "22.10.10",
+    "typescript": "5.7.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  },
+  "files": [
+    "dist",
+    "scripts"
+  ]
+}
