@@ -1,6 +1,6 @@
 {
   "name": "gl.telegram-bot",
-  "version": "1.9.2",
+  "version": "1.9.3",
   "main": "dist/index.js",
   "keywords": [],
   "author": "John Lloyd Patrick Japos",
