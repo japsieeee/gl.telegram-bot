@@ -36,7 +36,7 @@ You can use this bot instance to call its bot actions
 ```typescript
 import TelegramBot from "gl.telegram-bot";
 
-const botInstance = new TelegramBot('7452405493:AAFEXa-potfzmUyBAgRGvqnXJq-ZM88ajrU');
+const botInstance = new TelegramBot('1234567:ASJHR24-93145uASJHF-ASDIRFJ3158');
 ```
 
 # Bot Actions
